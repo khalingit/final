@@ -1,0 +1,105 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 800px;
+    padding-top: 6px;
+    border: 1px solid  #000000 ;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+  html {
+      background-image:url(https://cdn.discordapp.com/attachments/931766750280810549/1127724084084613171/ferwffs.png);
+  }
+  header img{
+      float: left;
+      margin-left: 18px;
+      margin-top: 10px;	
+  }
+ 
+  /* nav menu */
+  a:focus, a:hover {
+      font-style: italic;
+  }
+  #nav_menu ul {
+      list-style-type: none;
+      position: relative;
+      }
+  #nav_menu ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      background-color: #dadada;
+  }
+  #nav_menu ul ul li {
+      float: none;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+  }
+  #nav_menu ul li:hover > ul {
+      display: block;
+  }
+  #nav_menu > ul::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+  #nav_menu ul li {
+      float: right;
+  }
+  #nav_menu ul li a {
+      text-align: center;
+      display:block;
+      width: 140px;
+      padding: 1.5em 0;
+      color: rgb(63, 63, 63);
+      background-color: #dadada;
+      border: 1px #727272 solid;
+      font-weight:bold;
+      text-decoration: none;
+      margin-right: 25px;
+      margin-left: 5px;	
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  main h1 {
+    text-align: center;
+    color: rgb(146, 68, 219);
+    text-shadow: #000000 1px 1px 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   /*images*/
+
+  .mail {
+    flex: 1;
+    padding-left: 5em;
+    margin-top: 30px;
+    position: absolute;
+    height: 200px;
+  }
+
+  .images {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+    padding-right: 100px;
+    
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+  
+  footer {
+    background-color: #dadada;
+    color: #000000;
+    padding: 1px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid black;
+  }
